@@ -15,9 +15,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
-    <finalName>edutechApp</finalName>
-   
+ 
+   <build>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -25,6 +24,6 @@
             <version>3.3.2</version> <!-- Use a version compatible with your Maven version -->
         </plugin>
     </plugins>
-
-  </build>
+</build>
+ 
 </project>
