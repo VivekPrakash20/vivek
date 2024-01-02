@@ -1,23 +1,6 @@
 pipeline{
     agent any
     stages{
-          stage ('code compile'){
-            steps{
-                sh 'mvn compile'
-            }
-        }
-         stage ('code test'){
-            steps{
-                sh 'mvn test'
-            }
-        }
-
-          stage ('code QA'){
-            steps{
-                sh 'mvn pmd:pmd'
-            }
-        }
-
         
 
         stage('Build'){
